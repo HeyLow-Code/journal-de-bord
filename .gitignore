@@ -1,0 +1,5 @@
+# Tous les fichiers ".tmp"
+*.tmp
+
+# Un fichier en particulier
+brouillon.txt
