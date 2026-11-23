@@ -1,0 +1,25 @@
+git switch main && git pull              # partir d'une base à jour
+git switch -c feat/12-filtre-difficulte  # une branche par ticket
+# ... coder, tester ...
+git status                               # voir ce qui a changé
+git add fichier                          # choisir ce qu'on enregistre
+git commit -m "feat: filtre par difficulté"
+git push -u origin feat/12-filtre-difficulte
+# ouvrir la pull request, demander une relecture
+git switch main && git pull              # après fusion
+git branch -d feat/12-filtre-difficulte
+
+Contexte et versions — ce que je cherche à faire — code minimal qui reproduit — message d'erreur exact — ce que j'ai déjà essayé — ce que j'ai compris de mes recherches
+
+| Contexte et version | Ce que je cherche a faire | Commande pour le faire | Message d'erreur | Ce que j'ai essayé | Ce que j'ai compris de mes recherches |
+| - | - | - | - | - | - |
+| Tout début | Créer le dépôt | git init | Aucun | git init | Tant qu'il n'y a pas de dépôt, je peux réessayer tant que je le souhaite |
+| Voir si tout fonctionne | Voir si il n'y a aucune erreur | git status | fatal: detected dubious ownership in repository | Rechercher la solution sur le site de Git | Par sécurité, il bloque le chemin il faut donc qu'on le reconnaisse pour fonctionner |
+| Définir le nom et le mail | git config user.name [nom] / git config user.email [email] | Aucun | Rien | le changement de nom se fait dans le terminal |
+| Mettre en attente le fichier | Déposer un fichier | git add | Aucun | git add | git add met le fichier "en attente", il permet aussi de commit plusieurs fichiers en même temps |
+| Déposer les fichier | Déposer un fichier | git commit | Je sais pas | Je sais pas | git commit répertorie les fichiers mis 'en attente" avec git add |
+| système de branches | Découper mon projet en "sous-projets" | git branch [nom de la branche] (-c pour la selectionner directement) | Aucun | git branch -c test | le -c n'est pas obligatoire, c'est pour eviter de faire 2 commandes |
+| Changer de branche | Ajouter une version à un projet en perticulier | git switch [nom de lma branche] | Aucun | get switch test | Quand on donne les bons noms on peut vite se retrouver |
+| Regroupper les branches | regroupper des projets ensemble | git merge [nom de l'autre branche] | Aucun | git merge test | Merge relie uniquement les branches et crée une nouvelle version |
+| Ajouter le commit d'une branche sur une autre | coller 2 branches | git rebase [nom de la branche à rejoindre] | Aucun | git rebase test | Attention à ne pas s'embrouiller dans les noms |
+ 
