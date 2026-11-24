@@ -10,3 +10,5 @@
 | Regroupper les branches | regroupper des projets ensemble | git merge [nom de l'autre branche] | Aucun | git merge test | Merge relie uniquement les branches et crée une nouvelle version |
 | Ajouter le commit d'une branche sur une autre | coller 2 branches | git rebase [nom de la branche à rejoindre] | Aucun | git rebase test | Attention à ne pas s'embrouiller dans les noms |
 | Supprimer une branche | supprimer une branche | git branch -d [nom de la branche] | Aucun | git branch -d docs/objectifs | Toujours faire un git [commande] --help et aussi chercher dans la documentation pour trouver la solution |
+| Ajouter les fichers au dépôt distant | ajouter mes fichiers | git push -u [nom] | Aucun | git push -u origin [nom de la branche] | le git push ajoute nos fichiers comme on l'a fait en local |
+| copier le dossier github en local | Recupérer le dossier | git clone [lien] | Aucun | git clone [lien du dossier equipe] | git clone 'telecharge' le dossier, il faut le verifier et surtout ne pas prendre les dossier de n'importe qui et n'importe comment |
