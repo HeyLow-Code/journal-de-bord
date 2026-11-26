@@ -4,4 +4,4 @@ Mon journal se compose d'une carte mentale du poste, mon diplôme, une fiche mé
 
 --
 
-Edit : Mon README de profil est disponible dans la branche "readmeprofil"
+Voir mon [README de profil](https://github.com/HeyLow-Code/journal-de-bord/blob/readmeprofil/README-profil.md "README de profil")
