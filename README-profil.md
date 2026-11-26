@@ -13,7 +13,7 @@ Diplomé d'une licence de graphisme à l'ILOI actuellement en formation de Devel
 
 --
 
-Voir mon [journal de bord](https://example.com "journal de bord")
+Voir mon [journal de bord](https://github.com/HeyLow-Code/journal-de-bord "journal de bord")
 
 ```bash
 **quand le travail est terminé**
